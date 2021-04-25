@@ -26,5 +26,5 @@ class ReleaseAuditorUtils(object):
     @staticmethod
     def get_version():
         """Gets the current version"""
-        return "0.1.0"
+        return "0.1.1"
 
