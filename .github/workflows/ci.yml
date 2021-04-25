@@ -34,4 +34,3 @@ jobs:
       run: |
         python setup.py install
         release_auditor --version
-        release_auditor github nightwatchcybersecurity/release_auditor
