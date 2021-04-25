@@ -6,6 +6,8 @@
 
 A tool for checking if GitHub release assets were modified after publication.
 
+For more information, [please read our blog post here](https://wwws.nightwatchcybersecurity.com/2021/04/25/supply-chain-attacks-via-github-com-releases/).
+
 ## Requirements
 Python 3 is required and you can find all required modules in the **requirements.txt** file.
 Only tested on Python 3.7 but should work on other 3.x releases.
@@ -49,7 +51,7 @@ The "--verbose" option shows additional information during checking.
 ### Example use
 Run as following:
 ```
-release_auditor nightwatchcybersecurity/truegaze
+release_auditor github nightwatchcybersecurity/truegaze
 ```
 
 The following results will be returned:
